@@ -145,7 +145,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://nitin-backend.onrender.com/send-email", {
+      const response = await fetch("https://leadsai-1.onrender.com/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
