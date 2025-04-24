@@ -18,7 +18,7 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 xl:mt-12 pl-5"
+              className="h2 xl:mt-12 pl-5 pt-2"
             >
               My work <span className="text-accent">.</span>
             </motion.h2>
@@ -27,7 +27,7 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0"
+              className="mb-4 max-w-[400px] mx-auto lg:mx-0 pt-14"
             >
               Experienced Digital Marketer: Driving Brand Growth, Engaging Audiences, and Delivering Data-Driven Results through Strategic Campaigns."
             </motion.p>
