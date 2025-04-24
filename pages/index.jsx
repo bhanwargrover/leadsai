@@ -7,6 +7,8 @@ import { BsArrowRight } from "react-icons/bs";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useRef } from 'react';
+import DOMPurify from 'dompurify';
+
 
 
 import "swiper/css";
