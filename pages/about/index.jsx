@@ -69,7 +69,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 pl-5 text-2xl sm:text-3xl xl:text-4xl pt-8"
+            className="h2 pl-5 text-2xl sm:text-3xl xl:text-4xl pt-6"
           >
             Social<span className="text-accent">Media </span> Marketing
           </motion.h2>
@@ -77,7 +77,7 @@ const About = () => {
             variants={fadeIn("right", 0.4)}
             initial="hidden"
             animate="show"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-sm sm:text-base pt-8"
+            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-sm sm:text-base pt-14"
           >
             As a digital marketer, creating valuable, relevant, and consistent content is key. This content can be blog posts, videos, infographics, and more. The goal is to educate, inform, and entertain the audience while building trust. I often work with SEO tools like SEMrush, Ahrefs, or Ubersuggest to understand what keywords to target and how to structure content for better rankings.
           </motion.p>
