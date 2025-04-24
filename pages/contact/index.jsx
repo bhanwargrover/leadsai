@@ -57,7 +57,7 @@ const Contact = () => {
           message,
         }),
       });
-      console.log("Sending request to:", "http://localhost:5000/send-email");
+     
 
       const data = await response.json();
 
