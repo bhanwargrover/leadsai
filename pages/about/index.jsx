@@ -31,6 +31,14 @@ export const aboutData = [
       { title: "AI Solutions for Marketing & Operations" },
       { title: "Figma wireframes for landing pages" },
       { title: "Prompt Engineering for content, SEO, and sales" },
+      {title:"Email marketing integration"},
+      {title:" ValidLeads.ai – AI SaaS Launch"},
+    
+
+    
+
+
+
     ],
   },
 ];
@@ -61,7 +69,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 pl-5 text-2xl sm:text-3xl xl:text-4xl"
+            className="h2 pl-5 text-2xl sm:text-3xl xl:text-4xl pt-8"
           >
             Social<span className="text-accent">Media </span> Marketing
           </motion.h2>
@@ -69,7 +77,7 @@ const About = () => {
             variants={fadeIn("right", 0.4)}
             initial="hidden"
             animate="show"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-sm sm:text-base"
+            className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-sm sm:text-base pt-8"
           >
             As a digital marketer, creating valuable, relevant, and consistent content is key. This content can be blog posts, videos, infographics, and more. The goal is to educate, inform, and entertain the audience while building trust. I often work with SEO tools like SEMrush, Ahrefs, or Ubersuggest to understand what keywords to target and how to structure content for better rankings.
           </motion.p>
@@ -105,7 +113,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} />
+                  <CountUp start={0} end={20} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects.

@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           {/* logo */}
           <Link href="/">
-            <h1 className="text-4xl sm:text-5xl font-semibold text-center lg:text-left">
+            <h1 className="text-4xl sm:text-3xl font-semibold text-center lg:text-left">
               Nitin <span className="text-accent">Grover</span>
             </h1>
           </Link>
